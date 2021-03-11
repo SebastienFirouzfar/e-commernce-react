@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { CartPage } from './Cart'
 import { Home } from './Home'
 import { Checkout } from './Checkout'
+import { Confirm } from './Confirm'
 
 //Récuperer les constants 
 import { NavBar } from '../../components'
@@ -69,6 +70,7 @@ const App = props => {
                                                 } />
         <Route path="/cart" component={CartPage} />
         <Route path="/checkout" component={Checkout} />
+        <Route path="/confirm" component={Confirm} />
         </UserProfileContextProvider>
       </Router>
     </Fragment>

@@ -1,0 +1,15 @@
+#truck{
+    width: 200px;
+    display: block;
+    position: absolute; 
+    top: 50%;
+    left: 20%;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+}
+
+.address{
+    list-style-type: none;
+}

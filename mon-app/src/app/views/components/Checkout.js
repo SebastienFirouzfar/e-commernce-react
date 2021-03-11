@@ -17,8 +17,6 @@ export const Checkout = () => {
     } = value
     
     
-    
-    
     const validate = () => {
         let errors = []
         //récuperer tout les inputs 
@@ -132,9 +130,9 @@ export const Checkout = () => {
                     </div>
                     <br />
                     {/*si c'est pas valide on affiche le disabled*/}
-                    <a href="#" className={`${!isValid && 'disabled'} white btn btn-dark btn-lg btn-block bg-crimson checkout`}>
+                    <Link to="/confirm" className={`${!isValid && 'disabled'} white btn btn-dark btn-lg btn-block bg-crimson checkout`}>
                         Confirm
-                    </a>
+                    </Link>
                 </form>
             </div>
         </Fragment>
